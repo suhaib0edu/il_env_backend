@@ -130,6 +130,6 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 AUTH_USER_MODEL = 'accounts.CustomUser'
 
-# CSRF_TRUSTED_ORIGINS = [
-#     'https://suhaib0edu-backend.hf.space',
-# ]
+CSRF_TRUSTED_ORIGINS = [
+    'http://35.183.9.105:8000',
+]
