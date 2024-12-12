@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-!cwt@%-b#(+q903^e!fdv!kkn5#l)r$r9orh)5p_fob*^6t-!b
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['0.0.0.0']
+ALLOWED_HOSTS = ['*','127.0.0.1', 'localhost','0.0.0.0']
 
 
 # Application definition
@@ -129,3 +129,7 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 
 AUTH_USER_MODEL = 'accounts.CustomUser'
+
+# CSRF_TRUSTED_ORIGINS = [
+#     'https://suhaib0edu-backend.hf.space',
+# ]
