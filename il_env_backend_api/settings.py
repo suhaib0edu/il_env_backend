@@ -132,4 +132,7 @@ AUTH_USER_MODEL = 'accounts.CustomUser'
 
 CSRF_TRUSTED_ORIGINS = [
     'http://172.31.1.236',
+    'http://172.31.1.236:8000',
+    'http://35.183.9.105',
+    'http://35.183.9.105:8000',
 ]
